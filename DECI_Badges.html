@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="textboxid.css"/>
+    <title>DECI Best Students</title>
+    
+  </head>
+  <body bgcolor = "black">
+    <center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img src = "Original.png" width="200">
+
+      <br>
+      <font size = "200"face="fantasy" color = "white">Welcome to the <br> best DECI Pupils Badge</font>
+      <br>
+      <font color = #F0B037 size = "10" face = "Monospace">Uncover Your Custom Secret Badge</font>
+      <br>
+      <br>
+      <br>
+      <br>
+      <input type="text" class="resizedTextbox" " id="myInput"/>
+      <input type="submit" value="Submit"class="button2"onclick="getInputValue();"/>
+      
+    
+    <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
+            
+            // Displaying the value
+            if(inputVal == "Tarek")
+            {
+                open("https://drive.google.com/file/d/1gGPLyYqokNIWbx39-ZGz-CX-XrTJNzaH/view?usp=share_link")
+            }
+        }
+    </script>
+    </center>
+  </body>
+</html>
